@@ -16,13 +16,13 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/ldldz">
+      <a href="https://github.com/pildrums">
         <img src="https://avatars.githubusercontent.com/u/77140851?v=4" width="100px;" alt="Pildrum"/><br />
         <sub><b>Pildrum</b><br></sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Serin-Kim">
+      <a href="https://github.com/dev-junehee">
         <img src="https://avatars.githubusercontent.com/u/116873887?v=4" width="100px;" alt="dev-junehee"/><br />
         <sub><b>dev-junehee</b><br></sub>
       </a>
