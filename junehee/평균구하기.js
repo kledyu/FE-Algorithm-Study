@@ -4,4 +4,4 @@ function solution(arr) {
     answer += arr[i];
   }
   return answer / arr.length;
-}
+};
