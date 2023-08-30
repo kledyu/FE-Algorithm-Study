@@ -14,7 +14,7 @@ function solution(numbers) {
   return answer.sort((a, b) => a - b);
 }
 
-// ES6 Set 문법을 통한 접근
+// ES6 Set 문법을 통한 접근 
 function solution(numbers) {
   const temp = [];
 
