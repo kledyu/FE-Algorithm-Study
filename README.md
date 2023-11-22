@@ -1,4 +1,4 @@
-![image](https://github.com/1017yu/FE-Algorithm-Study/assets/83483378/14c3d244-326a-4597-b7be-02a7d8275b4f)# 💻  FE-Algorithm-Study  💻
+# 💻  FE-Algorithm-Study  💻
 
 
 
