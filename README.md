@@ -18,7 +18,7 @@
     <td align="center">
       <a href="https://github.com/cdm1263">
         <img src="https://avatars.githubusercontent.com/u/122417731?v=4" width="100px;" alt="cdm1263"/><br />
-        <sub><b>Pildrum</b><br></sub>
+        <sub><b>cdm1263</b><br></sub>
       </a>
     </td>
     <td align="center">
