@@ -1,4 +1,4 @@
-# 💻  FE-Algorithm-Study  💻
+![image](https://github.com/1017yu/FE-Algorithm-Study/assets/83483378/14c3d244-326a-4597-b7be-02a7d8275b4f)# 💻  FE-Algorithm-Study  💻
 
 
 
@@ -16,8 +16,8 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/pildrums">
-        <img src="https://avatars.githubusercontent.com/u/77140851?v=4" width="100px;" alt="Pildrum"/><br />
+      <a href="https://github.com/cdm1263">
+        <img src="https://avatars.githubusercontent.com/u/122417731?v=4" width="100px;" alt="cdm1263"/><br />
         <sub><b>Pildrum</b><br></sub>
       </a>
     </td>
@@ -55,7 +55,7 @@
 
 ## 2️⃣ 진행 방식
 
-- 매주 `목요일 09시`에 진행한다.
+- 매주 `목요일 11시`에 진행한다.
 - 주마다 [프로그래머스](https://school.programmers.co.kr/learn/challenges?order=recent&page=1&languages=javascript&levels=1) 에서 5문제를 선정해 학습한다.
 - 공부할 5문제는 `목요일`에 논의하여 선정한다.
 - 스터디 시작 시 사다리타기 등 랜덤한 방식으로 발표할 문제를 할당한다.
