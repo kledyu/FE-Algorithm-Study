@@ -77,7 +77,7 @@
 - 터미널 작성법
 ```bash
 $ git commit -m "[PGM] 문제 이름 / Level 1 / 10분"
-$ git commit -m "[BOJ] 문제 이름 / 문제 번호 / 10분"
+$ git commit -m "[BOJ] 문제 이름 / 문제 번호 / 10분"
 ```
 
 
