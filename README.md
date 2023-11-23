@@ -12,19 +12,25 @@
     <td align="center">
       <a href="https://github.com/1017yu">
         <img src="https://avatars.githubusercontent.com/u/83483378?v=4" width="100px;" alt="Kled"/><br />
-        <sub><b>Kled</b><br></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/cdm1263">
-        <img src="https://avatars.githubusercontent.com/u/122417731?v=4" width="100px;" alt="cdm1263"/><br />
-        <sub><b>cdm1263</b><br></sub>
+        <sub><b>유희태</b><br></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/dev-junehee">
         <img src="https://avatars.githubusercontent.com/u/116873887?v=4" width="100px;" alt="dev-junehee"/><br />
-        <sub><b>dev-junehee</b><br></sub>
+        <sub><b>김준희</b><br></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/cdm1263">
+        <img src="https://avatars.githubusercontent.com/u/122417731?v=4" width="100px;" alt="cdm1263"/><br />
+        <sub><b>차동민</b><br></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/pildrums">
+        <img src="https://avatars.githubusercontent.com/u/77140851?v=4" width="100px;" alt="pildrums"/><br />
+        <sub><b>김필진</b><br></sub>
       </a>
     </td>
     <!-- <td align="center">
