@@ -4,7 +4,8 @@ function solution(elements) {
     
     // 배열 복제
     const duplicatedArray = [...elements, ...elements]
-    
+
+    // 주어진 elements를 Set으로 선언 (길이가 1인 연속 부분 포함)
     const answer = new Set(elements);
     
     // 배열 내 합을 구하는 함수
