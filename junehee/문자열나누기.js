@@ -21,3 +21,28 @@ function solution(s) {
     if (x.length) answer.push(s.split(s[x])[0])
     return answer.length;
 }
+
+
+function solution(s) {
+    let x = "";
+    let count = 0;
+    let same = 0;
+    let diff = 0;
+    
+    for (const char of s) {
+        if (!x) x = char;
+        
+        if (x === char) same++;
+        else diff++;
+        
+        if (same === diff) {
+            count++;
+            x = "";
+            same = 0;
+            diff = 0;
+        }
+    }
+    
+    if (x) count++;
+    return count;
+}
