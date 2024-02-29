@@ -12,10 +12,11 @@ function solution(numbers, hand) {
         } else if ([3, 6, 9].includes(num)) {
             answer += "R"
             right = num
-        } else {
+        } else if ([2, 4, 6, 8].includes(num)) {
             if (num === 0) num = 11
             
-            // 여기를 모르겠습니다...!!!!!!!!!!!
+            let leftToNum = Math.abs(num - left)
+            let rightToNum = Math.abs(num - right)
             
             if (leftToNum === rightToNum) {
                 if (hand === "left") {
