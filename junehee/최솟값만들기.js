@@ -1,8 +1,7 @@
-function solution(A,B){
+// for 반복문 사용
+function solution(A, B) {
     let answer = 0;
-    let min = 0;
-    let max = A.length - 1;
-    
+
     A.sort((a, b) => a - b);
     B.sort((a, b) => b - a);
 
@@ -11,4 +10,13 @@ function solution(A,B){
     }
 
     return answer;
+}
+
+
+// reduce 사용
+function solution(A, B) {
+    A.sort((a, b) => a - b);
+    B.sort((a, b) => b - a);
+
+    return A.reduce((acc, cur, idx) => acc + (cur * B[idx]), 0);
 }
