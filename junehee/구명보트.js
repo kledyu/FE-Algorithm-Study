@@ -1,25 +1,23 @@
 function solution(people, limit) {
-  let boat = 0;
-  let i = 0;
-  let j = people.length - 1;
-  
-  // 무거운 순서대로 정렬
-  people.sort((a, b) => b - a);
-  
-  // 배열의 가장 왼쪽과 가장 오른쪽을 합한 것부터 계산
-  // 두 요소가 같을 때까지 반복
-  while (i <= j) {
-      let sum = people[i] + people[j];
-      
-      if (sum > limit) {
-          boat += 1; // 두 요소의 합이 제한보다 크면 한 사람만 태우므로 보트 1개 추가
-          i += 1;    // 한 사람만 태우므로 i만 증가
-      } else {
-          boat += 1; // 제한보다 작거나 같으면 두 사람을 태우므로 보트 1개 추가
-          i += 1;    // 두사람을 태우므로 i 증가, j 감소
-          j -= 1;
-      }
-  }
-  
-  return boat;
+    people.sort((a, b) => a - b); // 몸무게가 가벼운 순서로 정렬
+    
+    let boat = 0;
+    
+    let front = 0;
+    let back = people.length - 1;
+    
+    while (front <= back) {
+        let sum = people[front] + people[back];  // 가장 가벼운 사람과 가장 무거운 사람의 합
+        
+        if (sum <= limit) {  // limit보다 가볍거나 같으면 두 사람 모두 한 보트에 탑승. 다음 사람 순서로 넘어감
+            boat += 1;
+            front++;
+            back--;
+        } else {   // limit 보다 무거우면 무거운 사람만 먼저 탑승
+            boat += 1;
+            back--;
+        }
+    }
+     
+    return boat;
 }
