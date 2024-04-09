@@ -1,0 +1,16 @@
+function solution(n, a, b) {
+  let aIndex = a;
+  let bIndex = b;
+
+  // 결승전까지의 총 라운드 수
+  const round = Math.log2(n);
+
+  for (let i = 1; i <= round; i++) {
+    aIndex = Math.ceil(aIndex / 2);
+    bIndex = Math.ceil(bIndex / 2);
+
+    if (aIndex === bIndex) {
+      return i;
+    }
+  }
+}
