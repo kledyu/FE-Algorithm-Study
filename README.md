@@ -33,12 +33,12 @@
         <sub><b>김필진</b><br></sub>
       </a>
     </td>
-    <!-- <td align="center">
-      <a href="">
-        <img src="" width="100px;" alt=""/><br />
-        <sub><b></b><br></sub>
+    <td align="center">
+      <a href="https://github.com/ChoEun-Sang">
+        <img src="https://avatars.githubusercontent.com/u/128155681?v=4" width="100px;" alt="ChoEun-Sang"/><br />
+        <sub><b>조은상</b><br></sub>
       </a>
-    </td> -->
+    </td>
      <!-- <td align="center">
       <a href="">
         <img src="" width="100px;" alt=""/><br />
