@@ -1,5 +1,20 @@
-// e.g. clothes = [["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]
+// e.g.
+// clothes = [["yellow_hat", "headgear"], ["blue_sunglasses", "eyewear"], ["green_turban", "headgear"]]
 
+// Object 활용
+function solution(clothes) {
+    let hash = {};
+    
+    for (let [_, category] of clothes) {
+        hash[category] = hash[category] ? hash[category] + 1 : 2
+    }
+    
+    let answer = Object.values(hash).reduce((acc, cur) => acc * cur)
+    
+    return answer - 1;
+}
+
+// Map 활용
 function solution(clothes) {
     let hash = new Map();
 
